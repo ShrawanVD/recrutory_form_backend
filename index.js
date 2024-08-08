@@ -23,7 +23,8 @@ app.use(compression());
 
 
 const mongoURI =
-  "mongodb+srv://vaibhav:1234@cluster0.24ik1dr.mongodb.net/recrutory?retryWrites=true&w=majority&appName=Cluster0";
+"mongodb+srv://shravan:1234@cluster0.7dyp7.mongodb.net/recrutory?retryWrites=true&w=majority&appName=Cluster0";
+  // "mongodb+srv://vaibhav:1234@cluster0.24ik1dr.mongodb.net/recrutory?retryWrites=true&w=majority&appName=Cluster0";
 mongoose
   .connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
